@@ -60,16 +60,16 @@ tl.add("HeyYOU");
 tl.call(function () { startText.innerHTML = "Cukjin" });
 tl.set(startText, { opacity: 0, attr: { textLength: 160 }, scale: 1, x: -50, fontSize: "2.5vw" });
 tl.staggerTo(polygons, 0.7, { scaleX: 1.2, scaleY: 0.8, ease: Power1.easeOut, stagger: { amount: 0.5, from: "center" } }, "HeyYOU");
-tl.to(startText, 0.7, { opacity: 1, }, "HeyYOU");
+tl.to(startText, 0.7, { opacity: 1, }, "Cukjin");
 tl.set(startText, { x: "+=47px", scale: 1.3 });
-tl.call(function () { startText.innerHTML = "Love" });
-tl.to(startText, 1, { attr: { textLength: 60 }, ease: Elastic.easeOut.config(1, 0.3) });
+tl.call(function () { startText.innerHTML = "L o v e" });
+tl.to(startText, 1, { attr: { textLength: 160 }, ease: Elastic.easeOut.config(1, 0.3) });
 tl.staggerTo(polygons, 1, { scaleX: 1, scaleY: 1, ease: Power1.easeOut, stagger: { amount: 0.3, from: "center" } });
-tl.call(function () { startText.innerHTML = "Ewok" });
+tl.call(function () { startText.innerHTML = "E w o k" });
 tl.to(startText, 0.5, { scale: 1.8, transformOrigin: "50% 50%", ease: Elastic.easeOut.config(1, 0.3) }, "-=0.5");
 tl.staggerTo(polygons, 0.7, { scaleX: 0.1, scaleY: 2, ease: Power1.easeOut, stagger: { amount: 0.5, from: "center" } });
 tl.call(function () { startText.innerHTML = "Cukjin Love Ewok" });
-tl.to(startText, 0.5, { attr: { textLength: 160 }, scale: 1, x: -60, ease: Elastic.easeOut.config(1, 0.3) })
+tl.to(startText, 0.5, { attr: { textLength: 360 }, scale: 1, x: -60, ease: Elastic.easeOut.config(1, 0.3) })
 tl.staggerTo(polygons, 0.7, { scaleX: 1, scaleY: 1, ease: Power1.easeOut, stagger: { amount: 0.5, from: "center" } });
 tl.staggerTo(polygons, 1, { opacity: 0, ease: Elastic.easeInOut.config(1, 0.3), stagger: { amount: 0.5, from: "center" } });
 tl.to(startText, 0.2, { opacity: 0 }, "-=1.2");
